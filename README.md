@@ -10,8 +10,8 @@ qblo is an Collaborative whiteboard tool
 
 Main features:
 --------------
-1. Login/Registration (LS) - based on email and password field. Should be simple. If there was no user we are creating new one with email and password specified. User name is created from part of email before @ sign.
-2. Dashboard screen (DS) - list of all visited/created boards (dashboard name and users that took part in it), ability to create new board
+1. _Login/Registration (LS)_ - based on email and password field. Should be simple. If there was no user we are creating new one with email and password specified. User name is created from part of email before @ sign.
+2. _Dashboard screen (DS)_ - list of all visited/created boards (dashboard name and users that took part in it), ability to create new board
 3. Whiteboard screen (WS) - canvas with ability to use black pencil, 5px width for drawing and ctrl+z for removing last operation. Any user (even not registered/logged-in) will see board when visits a link. Only logged-in user will be able to edit board.
 User see updates immediately and message shown when new user arrived/left board.
 4. History view (HV) - On top of board see(may be hidden) header with revision number and user name, who made change, ability to navigate back an forth through revisions history. When user visit different revisions (except the last) whiteboard updates will stop and ability to edit it will be disabled until he is back to the head revision.  
