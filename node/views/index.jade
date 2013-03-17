@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    div.main
+        form(method='post', action='/login')
+            p welcome to
+                b  #{title}
+            p.error= error
+            input(type='email', required=true, name='email', placeholder='you@email')
+            p
+            input(type='password', required=true, name='pass', placeholder='your******')
+            p
+            input.button(type='submit', name='submit', value='login')
+            div
+                p do not have account?
+                p no problem, enter your email, password and
+                    b  login

@@ -1,0 +1,73 @@
+body {
+    color: #474644;
+    background-color: #E6F3FF;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    height: 100%;
+}
+
+a {
+    color: #00B7FF;
+}
+
+input {
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.main {
+    text-align: center;
+    position: absolute;
+    width: 100%
+
+}
+
+.error {
+    color: red;
+}
+
+.heading {
+    height: 200px;
+}
+
+.info {
+    display: block;
+}
+
+.button {
+    background: linear-gradient(to bottom, #5A5A5A 0px, #858585 100%) repeat scroll 0 0 #5A5A5A;
+    border: 1px solid #2A2A2A;
+    display: inline-block;
+    color: #E6F3FF;
+    font-weight:bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 3px 3px 3px 3px;
+    padding: 4px 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: inherit;
+    width: 150px;
+}
+
+.new {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100px;
+}
+
+.logo {
+    float: left;
+    width: 72px;
+    height: 72px;
+}
+
+.tools {
+    float: right;
+}
+
+.left {
+    text-align: left;
+}

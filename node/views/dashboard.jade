@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    div.heading
+        img.logo(src='images/logo.png')
+        div.tools
+            span.info welcome #{user.name},
+                a(href='/logout')  logout
+            input.name(type='text', required=true, name='name', placeholder='name...')
+            span.button.new new board >
+

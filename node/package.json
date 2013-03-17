@@ -1,0 +1,22 @@
+{
+    "author": "Wolf Bas <becevka@gmail.com> (http://becevka.tumblr.com)",
+    "name": "qblo",
+    "description": "Colaborative Drawing Board",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/becevka/qblo.git"
+    },
+    "dependencies": {
+        "express": "3.1.0",
+        "mongodb": "1.2.14",
+        "socket.io": "0.9.13",
+        "jade": "0.28.2"
+    },
+    "engine": "node >= 0.8",
+    "license": "MIT",
+    "scripts": {
+        "start": "node app"
+    },
+    "main": "./app"
+}
