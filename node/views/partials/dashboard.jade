@@ -1,0 +1,12 @@
+div.heading
+    img.logo(src='images/logo.png')
+    div.tools
+        span.info welcome {{user.name}},
+            a.btn.btn-link.out(href='/logout')  logout
+        input.name(type='text', required=true, name='name', placeholder='name...')
+        span.btn.btn-info.btn-small.new new board >
+div.dashboard
+    div.well(ng-repeat="board in boards | orderBy:'name'")
+        a(href="#/draw/{{board._id}}", target="_top") {{board.name}}
+        p {{board.users|array}}
+

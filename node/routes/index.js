@@ -2,10 +2,10 @@
  * GET home page.
  */
 exports.index = function (req, res) {
-    var user = req.session.user;
-    if (user) {
-        res.render('dashboard', {title:'qblo', user:user});
-    } else {
-        res.render('index', {title:'qblo', error:''});
-    }
+    res.render('index');
+};
+
+exports.partials = function (req, res) {
+    var name = req.params.name;
+    res.render('partials/' + name, {csrf: req.session._csrf});
 };
